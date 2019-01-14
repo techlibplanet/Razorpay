@@ -3,7 +3,7 @@ package com.example.mayank.kwizzapp.dependency.components
 
 import com.example.mayank.kwizzapp.dependency.scopes.ActivityScope
 import dagger.Component
-import razorpay.example.com.razorpay.helpers.MainActivity
+import razorpay.example.com.razorpay.MainActivity
 
 @ActivityScope
 @Component(dependencies = arrayOf(ApplicationComponent::class))

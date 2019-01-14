@@ -1,4 +1,4 @@
-package razorpay.example.com.razorpay.helpers
+package razorpay.example.com.razorpay
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -10,10 +10,8 @@ import com.razorpay.PaymentResultListener
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
-import razorpay.example.com.razorpay.R
-import razorpay.example.com.razorpay.RazorpayApplication
+import razorpay.example.com.razorpay.helpers.processRequest
 import razorpay.example.com.razorpay.models.OrderDetails
-import razorpay.example.com.razorpay.models.OrderModel
 import razorpay.example.com.razorpay.models.Payment
 import razorpay.example.com.razorpay.network.IPayment
 import javax.inject.Inject
