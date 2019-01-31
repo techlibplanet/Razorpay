@@ -58,7 +58,6 @@ class MainActivity : AppCompatActivity(), PaymentResultListener {
                     logD("Order Id - ${order.id}")
                     logD("Created at - ${order.created_at}")
                     logD("Status - ${order.status}")
-
                     // Go to payment gateway to process the transaction
                     startPayment(order.id)
                 },

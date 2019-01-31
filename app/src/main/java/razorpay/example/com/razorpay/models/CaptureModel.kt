@@ -1,13 +1,17 @@
 package razorpay.example.com.razorpay.models
 
 class PaymentModel (
-    val id: String, val entity: String, val amount: Int, val currency: String,
+    val id: String,
+    val entity: String,
+    val amount: Int,
+    val currency: String,
     val order_id: String,
     val invoice_id: String,
     val international: Boolean,
     val method: String,
     val amount_refunded: Int,
-    val refund_status: String, val captured: Boolean,
+    val refund_status: String,
+    val captured: Boolean,
     val description: String,
     val card_id: String,
     val bank: String,
